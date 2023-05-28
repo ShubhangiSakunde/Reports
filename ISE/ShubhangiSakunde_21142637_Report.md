@@ -314,7 +314,25 @@ In this example, we create a test class `GraphicsSymbolMapperTest` that subclass
 We create an instance of the `GraphicsSymbolMapper` class and use its `map\_season` method to map seasons to their corresponding graphics symbols. We then use assertions to check if the results match the expected outcomes.
 
 To run the test cases, we execute `unittest.main()`, which will run all the test methods in the class.
+**Execution(Output)**
 
+**Scenario_A**
+
+![image](https://github.com/ShubhangiSakunde/Reports/assets/130922698/15632ffa-4c22-44ee-a67e-68797ee0233e)
+
+**Scenario_B**
+
+![image](https://github.com/ShubhangiSakunde/Reports/assets/130922698/d622d1d2-0966-4d5d-97ed-a448f95f772d)
+
+
+**Test code**
+
+![image](https://github.com/ShubhangiSakunde/Reports/assets/130922698/55fa5823-c586-4082-96f6-19608252dcca)
+
+
+**Table for= (EP: Equivalence partitioning, BVA: Boundary value
+ Analysis, BB : Black-box, WB: White-box)**
+ 
 ![image](https://github.com/ShubhangiSakunde/Reports/assets/130922698/e8d80a7c-746f-44e0-8ea0-2254a1fa1408)
 
 
@@ -410,3 +428,9 @@ By following this version control process, we can effectively track our work, ma
 2. Professionalism and Quality Assurance: Follow professional software development practices, including code reviews, unit testing, and continuous integration, to ensure code quality and reliability. Adhere to industry standards and best practices to design modular, maintainable, and scalable code. Implement version control to track changes and maintain code integrity. Prioritize user experience, accessibility, and inclusivity by considering diverse user needs and following accessibility guidelines.
 
 By incorporating these suggestions, the software project can promote ethical and professional conduct, mitigate potential harms, and enhance user trust and satisfaction.
+
+8. **Discussion**
+   Users of the programme can input a country name, a season of the year, and a month to display an image appropriate for the selected season. The opportunity to learn about seasons around the world is provided by this interactive and visually appealing project. The programme improves the quality and usability of the displayed photos by including a user-friendly interface and taking into account variables like the month. Error management for invalid inputs and enhancing the program's functioning by adding more details about each season are examples of potential areas for improvement.
+   
+The programme mentioned seeks to give users knowledge about the variation in temperature between one city. The programme detects whether a temperature difference between one city surpasses 5 degrees Celsius and produces the necessary output after receiving the names of the one city and their respective temperatures. This project puts a strong emphasis on usability and aids users in quickly determining temperature differences across sites. But there are certain areas that may be improved, such managing errors for incorrect inputs and adding extra features like unit conversion options. Overall, this programme is helpful for comparing temperatures and has the potential to be improved to offer a more thorough examination of temperature.
+
