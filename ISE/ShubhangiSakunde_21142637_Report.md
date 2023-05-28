@@ -193,35 +193,17 @@ Here is a short review checklist to ensure good code design principles are follo
 3. **Test design (Black box testing)**
 
 **Module 1: SeasonFinder (Equivalence Partitioning)**
+![image](https://github.com/ShubhangiSakunde/Reports/assets/130922698/4ee5c3e5-2bdf-4263-9a29-2d61e1841796)
 
-- Test Case 1: Input a valid country ("Australia") and a valid month (1-12)
-- Test Case 2: Input a valid country ("Canada") and a valid month (1-12)
-- Test Case 3: Input an invalid country ("Germany") and a valid month (1-12)
-- Test Case 4: Input a valid country ("Australia") and an invalid month (0 or 13)
 
 **Module 2: TemperatureComparator (Equivalence Partitioning)**
-
-- Test Case 1: Input a valid city ("Sydney"), a valid temperature, and a valid time ("morning" or "evening")
-- Test Case 2: Input a valid city ("Toronto"), a valid temperature, and a valid time ("morning" or "evening")
-- Test Case 3: Input an invalid city ("Melbourne"), a valid temperature, and a valid time ("morning" or "evening")
-- Test Case 4: Input a valid city ("Sydney"), an invalid temperature (non-numeric), and a valid time ("morning" or "evening")
+![image](https://github.com/ShubhangiSakunde/Reports/assets/130922698/dc4760d9-9487-4d2a-982c-a89a330c3315)
 
 **Module 3: InputValidator (Equivalence Partitioning)**
-
-- Test Case 1: Input valid country, city, month, temperature, and time
-- Test Case 2: Input invalid country, valid city, month, temperature, and time
-- Test Case 3: Input valid country, invalid city, month, temperature, and time
-- Test Case 4: Input valid country, city, invalid month, temperature, and time
-- Test Case 5: Input valid country, city, month, invalid temperature, and time
-- Test Case 6: Input valid country, city, month, temperature, and invalid time
+![image](https://github.com/ShubhangiSakunde/Reports/assets/130922698/e514f069-ef92-46e2-bfa5-79b43dc154af)
 
 **Module 4: GraphicsSymbolMapper (Equivalence Partitioning)**
---
-- Test Case 1: Input a valid season ("Summer")
-- Test Case 2: Input a valid season ("Autumn")
-- Test Case 3: Input a valid season ("Winter")
-- Test Case 4: Input a valid season ("Spring")
-- Test Case 5: Input an invalid season ("Monsoon")
+![image](https://github.com/ShubhangiSakunde/Reports/assets/130922698/4476177c-f7ab-41ec-bf49-1d0614c21913)
 
 **Module 5: UserInterface (Boundary Value Analysis)**
 
@@ -250,21 +232,10 @@ White-box testing involves examining theinternal structure and logic of the code
 
 **Module 3: InputValidator (White-box Testing)**
 
-- Test Case 1: Validate the input with a valid country, city, month, temperature, and time
-- Test Case 2: Validate the input with an invalid country, valid city, month, temperature, and time
-- Test Case 3: Validate the input with a valid country, invalid city, month, temperature, and time
-- Test Case 4: Validate the input with a valid country, city, invalid month, temperature, and time
-- Test Case 5: Validate the input with a valid country, city, month, invalid temperature, and time
-- Test Case 6: Validate the input with a valid country, city, month, temperature, and invalid time
-- Test Case 7: Validate the input with an invalid country, invalid city, invalid month, invalid temperature, and invalid time
+![image](https://github.com/ShubhangiSakunde/Reports/assets/130922698/1269378a-f23f-4815-8bef-da74f2850075)
 
 **Module 4: GraphicsSymbolMapper (White-box Testing)**
-
-- Test Case 1: Map a valid season ("Summer") to its corresponding graphics symbol
-- Test Case 2: Map an invalid season ("Monsoon") to its corresponding graphics symbol
-- Test Case 3: Map a valid season ("Autumn") to its corresponding graphics symbol
-- Test Case 4: Map a valid season ("Winter") to its corresponding graphics symbol
-- Test Case 5: Map a valid season ("Spring") to its corresponding graphics symbol
+![image](https://github.com/ShubhangiSakunde/Reports/assets/130922698/b616ee46-1ae9-467b-891e-260c12155eea)
 
 These test cases for the InputValidator and GraphicsSymbolMapper modules cover different paths and conditions within the code, ensuring that the internal logic is thoroughly tested.
 
@@ -343,6 +314,9 @@ In this example, we create a test class `GraphicsSymbolMapperTest` that subclass
 We create an instance of the `GraphicsSymbolMapper` class and use its `map\_season` method to map seasons to their corresponding graphics symbols. We then use assertions to check if the results match the expected outcomes.
 
 To run the test cases, we execute `unittest.main()`, which will run all the test methods in the class.
+
+![image](https://github.com/ShubhangiSakunde/Reports/assets/130922698/e8d80a7c-746f-44e0-8ea0-2254a1fa1408)
+
 
 6. **Version control**
 
