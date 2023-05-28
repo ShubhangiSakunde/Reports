@@ -1,9 +1,13 @@
 **Final Assessment**
+
 **Name: Shubhangi Vilas Sakunde**
+
 **Student_ID: 21142637**
+
 **Practical class: Day= Monday, Time= 4:00pm, Venue= Curtin University,bentley**
 
-**Introduction**
+# Introduction
+
 In order to provide two scenarios — predicting seasons based on nation, season of the year, and month number, and predicting temperature differences of 5 degrees Celsius based on city and temperature input — I have constructed a programme employing production code, test code, and version control. Reliability, scalability, and maintainability are all ensured by the codebase.
  
 When given a country, season, and month, the programme in the first scenario maps these to the relevant season, so precisely determining the season. In the second case, by comparing the input temperature with a reference value, the programme determines whether the temperature difference is within 5 degrees Celsius.
@@ -12,7 +16,7 @@ Our programme makes accurate forecasts while preserving code quality and simplif
 
 
 
-1. **Modularity: Preliminary description of your modules**
+# **Modularity: Preliminary description of your modules**
 
 Based on the given scenario, here are the preliminary descriptions of the modules that could be implemented to achieve the required functionality:
 
@@ -66,7 +70,7 @@ Based on the given scenario, here are the preliminary descriptions of the module
 
 Note: These are preliminary module descriptions, and further refinement may be required during the implementation stage.
 
-2. **Modularity: Implementation of production code, reviewing and refactoring**
+# **Modularity: Implementation of production code, reviewing and refactoring**
 1. **Implementation of Modules:**
 
 Here is an implementation of the modules based on the preliminary descriptions provided earlier. The implementation is done using Python:
@@ -190,19 +194,24 @@ Here is a short review checklist to ensure good code design principles are follo
 1. Are coding conventions and style guidelines followed?
 1. Are there any performance bottlenecks or inefficiencies that can be improved?
 
-3. **Test design (Black box testing)**
+# **Test design (Black box testing)**
 
 **Module 1: SeasonFinder (Equivalence Partitioning)**
+
 ![image](https://github.com/ShubhangiSakunde/Reports/assets/130922698/4ee5c3e5-2bdf-4263-9a29-2d61e1841796)
 
 
 **Module 2: TemperatureComparator (Equivalence Partitioning)**
+
 ![image](https://github.com/ShubhangiSakunde/Reports/assets/130922698/dc4760d9-9487-4d2a-982c-a89a330c3315)
 
+
 **Module 3: InputValidator (Equivalence Partitioning)**
+
 ![image](https://github.com/ShubhangiSakunde/Reports/assets/130922698/e514f069-ef92-46e2-bfa5-79b43dc154af)
 
 **Module 4: GraphicsSymbolMapper (Equivalence Partitioning)**
+
 ![image](https://github.com/ShubhangiSakunde/Reports/assets/130922698/4476177c-f7ab-41ec-bf49-1d0614c21913)
 
 **Module 5: UserInterface (Boundary Value Analysis)**
@@ -221,7 +230,7 @@ Here is a short review checklist to ensure good code design principles are follo
 
 These test designs cover a variety of scenarios and inputs, ensuring that the modules are thoroughly tested using both equivalence partitioning and boundary value analysis techniques.
 
-4. **Test design(White-box testing)**
+# **Test design(White-box testing)**
 
 Based on the code implemented in part 3, the following two modules can benefit from white-box testing:
 
@@ -234,12 +243,15 @@ White-box testing involves examining theinternal structure and logic of the code
 
 ![image](https://github.com/ShubhangiSakunde/Reports/assets/130922698/1269378a-f23f-4815-8bef-da74f2850075)
 
+
 **Module 4: GraphicsSymbolMapper (White-box Testing)**
+
 ![image](https://github.com/ShubhangiSakunde/Reports/assets/130922698/b616ee46-1ae9-467b-891e-260c12155eea)
+
 
 These test cases for the InputValidator and GraphicsSymbolMapper modules cover different paths and conditions within the code, ensuring that the internal logic is thoroughly tested.
 
-5. **Test implementation**
+# **Test implementation**
 
 \```
 
@@ -336,7 +348,7 @@ To run the test cases, we execute `unittest.main()`, which will run all the test
 ![image](https://github.com/ShubhangiSakunde/Reports/assets/130922698/e8d80a7c-746f-44e0-8ea0-2254a1fa1408)
 
 
-6. **Version control**
+# **Version control**
 
 To apply version control and keep track of the software project, follow these steps:
 
@@ -412,9 +424,9 @@ By following this version control process, we can effectively track our work, ma
 
 
 
-7. **Ethics and Professionalism**
+# **Ethics and Professionalism**
 
-1. **Lack of ethical and professionalism in the code can result in harmful effects in the following ways:**
+**1. Lack of ethical and professionalism in the code can result in harmful effects in the following ways:**
 1. Privacy and Data Protection: If the code fails to handle user data and personal information securely, it can lead to breaches of privacy and unauthorized access to sensitive data. This can have severe consequences for individuals, such as identity theft or exposure of personal information.
 2. Accuracy and Reliability: If the code does not ensure accurate and reliable results, it can lead to misinformation or incorrect decisions. For example, in the weather software scenario, if the temperature readings or season determinations are inaccurate, it can mislead users and impact their decision-making.
 3. Transparency and Accountability: Lack of transparency and accountability in the code can result in hidden functionalities or biased outcomes. This can lead to unethical manipulation of data or unfair treatment of users.
@@ -423,14 +435,15 @@ By following this version control process, we can effectively track our work, ma
 6. System Performance and Scalability: Lack of professionalism in code design and implementation can result in poor system performance and scalability issues. This can cause disruptions in service, loss of productivity, and financial losses for organizations relying on the software.
 7. Ethical Decision Making: If the code does not incorporate ethical decision-making processes or fails to consider the potential social impact of its functionality, it can result in unintended consequences and harm to individuals or communities.
 
-2. **Two suggestions to avoid ethical and professional issues in the software proposed in this assignment, based on ACS or IEEE-CS Ethical guidelines, are:**
+**2. Two suggestions to avoid ethical and professional issues in the software proposed in this assignment, based on ACS or IEEE-CS Ethical guidelines, are:**
 1. Ethical Consideration: Conduct an ethical analysis of the software project to identify and address potential ethical issues. This involves considering the impact of the software on users, society, and the environment. Implement privacy protection measures, data encryption, and secure handling of user information to safeguard privacy. Ensure transparency in how user data is collected, used, and stored, and provide clear consent mechanisms.
 2. Professionalism and Quality Assurance: Follow professional software development practices, including code reviews, unit testing, and continuous integration, to ensure code quality and reliability. Adhere to industry standards and best practices to design modular, maintainable, and scalable code. Implement version control to track changes and maintain code integrity. Prioritize user experience, accessibility, and inclusivity by considering diverse user needs and following accessibility guidelines.
 
 By incorporating these suggestions, the software project can promote ethical and professional conduct, mitigate potential harms, and enhance user trust and satisfaction.
 
-8. **Discussion**
+# **Discussion**
+
    Users of the programme can input a country name, a season of the year, and a month to display an image appropriate for the selected season. The opportunity to learn about seasons around the world is provided by this interactive and visually appealing project. The programme improves the quality and usability of the displayed photos by including a user-friendly interface and taking into account variables like the month. Error management for invalid inputs and enhancing the program's functioning by adding more details about each season are examples of potential areas for improvement.
    
-The programme mentioned seeks to give users knowledge about the variation in temperature between one city. The programme detects whether a temperature difference between one city surpasses 5 degrees Celsius and produces the necessary output after receiving the names of the one city and their respective temperatures. This project puts a strong emphasis on usability and aids users in quickly determining temperature differences across sites. But there are certain areas that may be improved, such managing errors for incorrect inputs and adding extra features like unit conversion options. Overall, this programme is helpful for comparing temperatures and has the potential to be improved to offer a more thorough examination of temperature.
+   The programme mentioned seeks to give users knowledge about the variation in temperature between one city. The programme detects whether a temperature difference between one city surpasses 5 degrees Celsius and produces the necessary output after receiving the names of the one city and their respective temperatures. This project puts a strong emphasis on usability and aids users in quickly determining temperature differences across sites. But there are certain areas that may be improved, such managing errors for incorrect inputs and adding extra features like unit conversion options. Overall, this programme is helpful for comparing temperatures and has the potential to be improved to offer a more thorough examination of temperature.
 
